@@ -10,6 +10,29 @@ $user_name = ''; // укажите здесь ваше имя
     <title>Главная</title>
     <link href="../css/normalize.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
+
+    <?php
+    $array = [
+
+        "Boards" => "Доски и лыжи",
+        "Fasteners" => "Крепления",
+        "Boots"=> "Ботинки",
+        "Clothing" => "Одежда",
+        "instruments" => "Инструменты",
+        "Others" => "Разное",
+    ];
+
+
+    $array = [
+        [
+            "name" => "2014 Rossignol District Snowboard ",
+            "Category" => "Boards",
+            "Price" => 10999,
+            "Picture" => "img/lot-1.jpg"
+        ];
+    ];
+
+    ?>
 </head>
 <body>
 <div class="page-wrapper">
